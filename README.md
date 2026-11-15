@@ -10,7 +10,7 @@ Semua isinya murni JSON ruleset Unciv. Nggak ada script aneh, nggak ada file gam
 
 | Info | Keterangan |
 |---|---|
-| Versi | **1.1.0** |
+| Versi | **1.1.1** |
 | Dibuat untuk | Unciv **4.22.14-patch1** (Build 1278) |
 | Tipe | Extension mod, aman digabung sama mod lain |
 | Penulis | **panz-08** |
@@ -46,9 +46,14 @@ mods/
 └── Panz-08 God Mode/
     ├── jsons/
     ├── Images/
+    ├── game.atlas      <- penting, jangan dipisah dari folder mod
+    ├── game.png        <- penting
+    ├── Atlases.json
     ├── preview.png
     └── README.md
 ```
+
+> `game.atlas` dan `game.png` **wajib ada di root folder mod**, sejajar dengan `jsons` dan `Images`. Kalau dua file ini nyasar ke dalam `Images/`, semua ikon mod bakal kosong (cuma lingkaran warna).
 
 > Kalau di dalam folder ada folder lagi (misalnya `unciv-panz08-god-mode-main/Panz-08 God Mode/...`), pindahkan folder `Panz-08 God Mode`-nya langsung ke `mods`.
 
@@ -64,6 +69,15 @@ Selesai. Kalau ada update, tinggal `git pull` di folder itu.
 ### Opsi 3 — Langsung dari Unciv
 
 Unciv juga bisa ambil mod dari GitHub lewat menu **Mods** → **Download mod**. Tapi karena repo ini belum masuk daftar resmi, cara paling aman tetap dua opsi di atas.
+
+### Kalau ikonnya kosong
+
+Itu tanda file atlas nggak kebaca. Cek dua hal:
+
+1. Pastikan `game.atlas` **dan** `game.png` ada di root folder mod (bukan di dalam `Images/`).
+2. Pastikan `Atlases.json` juga ada di root folder mod, isinya `["game"]`.
+
+Kalau ketiganya sudah benar, ikon langsung muncul tanpa perlu buka game berulang kali.
 
 ---
 
@@ -201,13 +215,15 @@ Di versi 1.0.0 ikonnya tipis-tipis, jadi pas Unciv nge-*tint* hitam di atas ling
 
 - 20 ikon baru: unit, bangunan, improvement, resource, promosi, tech, dan bangsa.
 - Ikon **Dewa Pemanah** digambar manual (busur + panah), bukan sekadar simbol font.
-- Sudah dipak ke `Images/game.atlas` + `Images/game.png`, jadi langsung muncul tanpa perlu build apa-apa.
+- Sudah dipak jadi satu atlas `game.atlas` + `game.png` di root folder mod, jadi langsung muncul tanpa perlu build apa-apa.
 
 Kalau kamu mau ubah ikonnya sendiri:
 
 1. Ganti file PNG di folder `Images/<Kategori>/`.
-2. Masuk ke folder `Images`, lalu jalankan TexturePacker dengan setting yang sudah disediakan (`TexturePacker.settings`).
-3. Atlas `game.atlas` dan `game.png` akan terbentuk ulang otomatis.
+2. Dari dalam folder `Images`, jalankan TexturePacker dengan output ke folder induknya (root mod), nama atlas `game`.
+3. `game.atlas` dan `game.png` di root mod akan terbentuk ulang.
+
+> Catatan buat yang penasaran: build Unciv Linux bawaan sini pakai JRE tanpa `java.desktop`, jadi TexturePacker nggak bisa jalan otomatis di dalam game. Itu sebabnya atlas harus sudah jadi dan ditaruh di root mod.
 
 ---
 
@@ -221,6 +237,11 @@ Kalau kamu mau ubah ikonnya sendiri:
 ---
 
 ## Changelog
+
+### 1.1.1
+- **Perbaikan besar**: `game.atlas` + `game.png` sekarang ada di **root folder mod**, bukan di dalam `Images/`. Sebelumnya ikon bisa kosong total (cuma lingkaran warna) karena Unciv nggak menemukan atlasnya.
+- Tambah `Atlases.json` di root mod.
+- README dapat bagian "Kalau ikonnya kosong" biar nggak bingung lagi.
 
 ### 1.1.0
 - **Ikon dirombak total**: 20 ikon siluet putih tebal, nggak buletan gelap lagi.
