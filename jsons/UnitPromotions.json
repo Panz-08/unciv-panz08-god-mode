@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Divine Blessing",
+    "uniques": [
+      "[+100]% Strength",
+      "May heal outside of friendly territory",
+      "All healing effects doubled",
+      "[+50] HP when healing"
+    ]
+  },
+  {
+    "name": "Divine Swiftness",
+    "uniques": [
+      "[+4] Movement",
+      "All tiles cost 1 movement",
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "Divine Logistics",
+    "uniques": [
+      "[2] additional attacks per turn",
+      "Can move after attacking",
+      "Ignores Zone of Control"
+    ]
+  },
+  {
+    "name": "Divine Sight",
+    "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
+      "Invisible to others"
+    ]
+  }
+]

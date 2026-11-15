@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Altar Para Dewa",
+    "cost": 1,
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "food": 20,
+    "production": 20,
+    "gold": 20,
+    "science": 20,
+    "culture": 20,
+    "faith": 20,
+    "happiness": 10,
+    "percentStatBonus": {
+      "food": 25,
+      "production": 25,
+      "gold": 25,
+      "science": 25,
+      "culture": 25,
+      "faith": 25
+    },
+    "uniques": [
+      "Provides [1] [Kristal Dewa]",
+      "All newly-trained [All] units [in this city] receive the [Divine Blessing] promotion",
+      "Never destroyed when the city is captured",
+      "Unsellable"
+    ],
+    "civilopediaText": [
+      { "text": "Altar utama Panz-08. Memberi hasil melimpah dan memberkati setiap unit yang dilatih di kota ini." }
+    ]
+  },
+  {
+    "name": "Pasar Surgawi",
+    "cost": 1,
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "gold": 100,
+    "happiness": 10,
+    "percentStatBonus": {
+      "gold": 100
+    },
+    "uniques": [
+      "Provides [1] [Kristal Dewa]",
+      "Gain [2500] [Gold]",
+      "Unsellable"
+    ],
+    "civilopediaText": [
+      { "text": "Pasar yang menjual kemakmuran dunia lain. Saat dibangun, langsung memberi 2500 Gold." }
+    ]
+  },
+  {
+    "name": "Menara Ilmu",
+    "cost": 1,
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "science": 100,
+    "percentStatBonus": {
+      "science": 100
+    },
+    "greatPersonPoints": {
+      "Great Scientist": 5,
+      "Great Engineer": 5
+    },
+    "uniques": [
+      "New [All] units start with [30] XP [in this city]",
+      "[+50]% Great Person generation [in this city]",
+      "Unsellable"
+    ],
+    "civilopediaText": [
+      { "text": "Menara pengetahuan abadi. Meningkatkan Science kota dan mempercepat kelahiran Great Person." }
+    ]
+  },
+  {
+    "name": "Benteng Dewa",
+    "cost": 1,
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "cityStrength": 25,
+    "happiness": 5,
+    "uniques": [
+      "Never destroyed when the city is captured",
+      "[-100]% enemy spy effectiveness [in this city]",
+      "[+100]% Strength for cities",
+      "Unsellable"
+    ],
+    "civilopediaText": [
+      { "text": "Benteng yang dibangun oleh para dewa. Kota nyaris tidak mungkin direbut dan mata-mata musuh menjadi tidak berguna." }
+    ]
+  },
+  {
+    "name": "Gerbang Pasukan",
+    "cost": 1,
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "uniques": [
+      "Free [Dewa Perang] appears",
+      "Free [Dewa Pemanah] appears",
+      "Free [Dewa Pekerja] appears",
+      "[+100]% Production when constructing [Military] units [in this city]",
+      "Unsellable"
+    ],
+    "civilopediaText": [
+      { "text": "Gerbang tempat pasukan dewa melangkah keluar. Saat dibangun, langsung memanggil Dewa Perang, Dewa Pemanah, dan Dewa Pekerja." }
+    ]
+  },
+  {
+    "name": "Kuil Keajaiban",
+    "cost": 1,
+    "isNationalWonder": true,
+    "maintenance": 0,
+    "uniques": [
+      "Free Technology",
+      "Free Social Policy",
+      "Free Great Person",
+      "Reveals the entire map",
+      "Empire enters a [15]-turn Golden Age",
+      "Gain [5000] [Faith]",
+      "Unsellable"
+    ],
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "culture": 50,
+    "faith": 50,
+    "happiness": 10,
+    "quote": "'Satu kuil untuk seribu doa, satu langkah untuk seribu dunia.' - Panz-08",
+    "civilopediaText": [
+      { "text": "Keajaiban nasional Panz-08. Saat selesai dibangun: teknologi gratis, social policy gratis, Great Person gratis, seluruh peta terungkap, Golden Age 15 turn, dan 5000 Faith." }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Divine (Panz-08)",
+    "modifier": 0.5,
+    "productionCostModifier": 0.1,
+    "goldCostModifier": 0.1,
+    "scienceCostModifier": 0.1,
+    "cultureCostModifier": 0.1,
+    "faithCostModifier": 0.1,
+    "improvementBuildLengthModifier": 0.1,
+    "barbarianModifier": 10.0,
+    "goldGiftModifier": 5.0,
+    "cityStateTributeScalingInterval": 1.0,
+    "goldenAgeLengthModifier": 3.0,
+    "religiousPressureAdjacentCity": 20,
+    "peaceDealDuration": 5,
+    "dealDuration": 50,
+    "startYear": -6000,
+    "turns": [
+      { "yearsPerTurn": 100, "untilTurn": 50 },
+      { "yearsPerTurn": 50, "untilTurn": 100 },
+      { "yearsPerTurn": 25, "untilTurn": 150 },
+      { "yearsPerTurn": 10, "untilTurn": 250 },
+      { "yearsPerTurn": 5, "untilTurn": 350 },
+      { "yearsPerTurn": 1, "untilTurn": 500 }
+    ]
+  }
+]

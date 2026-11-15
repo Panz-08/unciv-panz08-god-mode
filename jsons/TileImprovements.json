@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Taman Eden",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "techRequired": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "turnsToBuild": 0,
+    "food": 10,
+    "production": 10,
+    "gold": 10,
+    "science": 5,
+    "culture": 5,
+    "faith": 5,
+    "uniques": [
+      "Can be built outside your borders",
+      "Removes removable features when built",
+      "Irremovable",
+      "Unpillagable",
+      "Gives a defensive bonus of [50]%"
+    ],
+    "civilopediaText": [
+      { "text": "Taman surgawi yang dapat dibangun di semua tile daratan dalam satu turn. Memberi hasil besar dan bonus pertahanan." }
+    ]
+  },
+  {
+    "name": "Tambang Dewa",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "techRequired": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "turnsToBuild": 0,
+    "production": 20,
+    "gold": 10,
+    "uniques": [
+      "Can be built outside your borders",
+      "Removes removable features when built",
+      "Irremovable",
+      "Unpillagable"
+    ],
+    "civilopediaText": [
+      { "text": "Tambang yang menembus lapisan dunia. Memberi Production dan Gold sangat besar, dibangun dalam satu turn." }
+    ]
+  }
+]

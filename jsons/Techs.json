@@ -1,0 +1,19 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 20,
+    "buildingCost": 40,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Divine Ascension",
+        "row": 1,
+        "cost": 1,
+        "prerequisites": [],
+        "quote": "'Kita tidak meminta kekuatan untuk menaklukkan dunia. Kami adalah kekuatan itu.' - Panz-08",
+        "uniques": ["Unavailable"]
+      }
+    ]
+  }
+]

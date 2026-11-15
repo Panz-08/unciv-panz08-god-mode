@@ -1,0 +1,38 @@
+{
+  "isBaseRuleset": false,
+  "modVersion": "1.1.0",
+  "recommendedGameVersion": "4.22.14-patch1",
+  "author": "panz-08",
+  "topics": ["unciv-mod", "unciv-mod-expansions", "unciv-mod-fun"],
+  "uniques": [
+    "Allow raze capital",
+    "Allow raze holy city",
+    "Can trade civilization introductions for [100] Gold"
+  ],
+  "constants": {
+    "maxXPfromBarbarians": 2147483647,
+    "baseCityBombardRange": 4,
+    "cityWorkRange": 5,
+    "cityExpandRange": 8,
+    "minimalCityDistance": 2,
+    "minimalCityDistanceOnDifferentContinents": 1,
+    "ancientRuinCountMultiplier": 0.06,
+    "naturalWonderCountMultiplier": 0.2,
+    "naturalWonderCountAddedConstant": 1.0,
+    "cityStrengthBase": 15.0,
+    "cityStrengthPerPop": 1.0,
+    "unitSupplyPerPopulation": 1.0,
+    "religionLimitBase": 2,
+    "pantheonBase": 5,
+    "pantheonGrowth": 1,
+    "maxSpyRank": 5,
+    "spyRankSkillPercentBonus": 50.0,
+    "unitUpgradeCost": {
+      "base": 0.0,
+      "perProduction": 0.1,
+      "eraMultiplier": 0.0,
+      "exponent": 1.0,
+      "roundTo": 5
+    }
+  }
+}

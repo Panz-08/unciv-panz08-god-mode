@@ -1,0 +1,39 @@
+[
+  {
+    "name": "God Mode (Panz-08)",
+    "baseHappiness": 100,
+    "extraHappinessPerLuxury": 5.0,
+    "researchCostModifier": 0.1,
+    "unitCostModifier": 0.1,
+    "unitSupplyBase": 50,
+    "unitSupplyPerCity": 10,
+    "buildingCostModifier": 0.1,
+    "policyCostModifier": 0.1,
+    "unhappinessModifier": 0.0,
+    "barbarianBonus": 2.0,
+    "barbarianSpawnDelay": 999,
+    "playerBonusStartingUnits": [
+      "Dewa Settler",
+      "Dewa Pekerja",
+      "Dewa Pekerja",
+      "Dewa Perang",
+      "Dewa Pemanah",
+      "Dewa Penjelajah"
+    ],
+    "aiDifficultyLevel": "Settler",
+    "aiCityGrowthModifier": 3.0,
+    "aiUnitCostModifier": 3.0,
+    "aiBuildingCostModifier": 3.0,
+    "aiWonderCostModifier": 3.0,
+    "aiBuildingMaintenanceModifier": 2.0,
+    "aiUnitMaintenanceModifier": 2.0,
+    "aiUnitSupplyModifier": 0,
+    "aiFreeTechs": [],
+    "aiMajorCivBonusStartingUnits": [],
+    "aiCityStateBonusStartingUnits": [],
+    "aiUnhappinessModifier": 2.0,
+    "aisExchangeTechs": false,
+    "turnBarbariansCanEnterPlayerTiles": 10000,
+    "clearBarbarianCampReward": 500
+  }
+]

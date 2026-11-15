@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Dewa Perang",
+    "unitType": "Sword",
+    "movement": 6,
+    "strength": 1000,
+    "cost": 1,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "promotions": ["Divine Blessing", "Divine Swiftness", "Divine Logistics", "Divine Sight"],
+    "uniques": [
+      "Ignores terrain cost",
+      "May heal outside of friendly territory",
+      "All healing effects doubled",
+      "Unit will heal every turn, even if it performs an action",
+      "No damage penalty for wounded units",
+      "May enter foreign tiles without open borders",
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "Can pass through impassable tiles",
+      "May travel on Water tiles without embarking",
+      "Invisible to others",
+      "Heals [50] damage if it kills a unit"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Dewa Pemanah",
+    "unitType": "Archery",
+    "movement": 5,
+    "strength": 300,
+    "rangedStrength": 1000,
+    "range": 5,
+    "cost": 1,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "promotions": ["Divine Blessing", "Divine Swiftness", "Divine Logistics", "Divine Sight"],
+    "uniques": [
+      "Ranged attacks may be performed over obstacles",
+      "Ignores terrain cost",
+      "May heal outside of friendly territory",
+      "All healing effects doubled",
+      "Unit will heal every turn, even if it performs an action",
+      "No damage penalty for wounded units",
+      "May enter foreign tiles without open borders",
+      "Can move after attacking",
+      "Can pass through impassable tiles",
+      "May travel on Water tiles without embarking",
+      "Invisible to others"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Dewa Pekerja",
+    "unitType": "Civilian",
+    "movement": 10,
+    "cost": 1,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "promotions": ["Divine Swiftness", "Divine Sight"],
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "All tiles cost 1 movement",
+      "Ignores terrain cost",
+      "May travel on Water tiles without embarking",
+      "Can pass through impassable tiles",
+      "Invisible to others"
+    ]
+  },
+  {
+    "name": "Dewa Settler",
+    "unitType": "Civilian",
+    "movement": 8,
+    "cost": 1,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "promotions": ["Divine Swiftness", "Divine Sight"],
+    "uniques": [
+      "Founds a new city <by consuming this unit>",
+      "Excess Food converted to Production when under construction",
+      "Requires at least [1] population",
+      "All tiles cost 1 movement",
+      "Ignores terrain cost",
+      "May travel on Water tiles without embarking",
+      "Can pass through impassable tiles",
+      "Invisible to others"
+    ]
+  },
+  {
+    "name": "Dewa Penjelajah",
+    "unitType": "Scout",
+    "movement": 10,
+    "strength": 100,
+    "cost": 1,
+    "requiredTech": "Divine Ascension",
+    "uniqueTo": "Panz-08 Empire",
+    "promotions": ["Divine Blessing", "Divine Swiftness", "Divine Sight"],
+    "uniques": [
+      "Ignores terrain cost",
+      "All tiles cost 1 movement",
+      "Invisible to others",
+      "Can see over obstacles",
+      "May enter foreign tiles without open borders",
+      "May travel on Water tiles without embarking",
+      "Can pass through impassable tiles"
+    ],
+    "attackSound": "nonmetalhit"
+  }
+]

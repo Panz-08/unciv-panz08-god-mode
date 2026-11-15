@@ -1,0 +1,11 @@
+# OS / editor sampah
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Build sementara
+build/
+out/
+*.class
+*.log

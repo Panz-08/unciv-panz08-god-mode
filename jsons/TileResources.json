@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Kristal Dewa",
+    "resourceType": "Luxury",
+    "happiness": 10,
+    "terrainsCanBeFoundOn": [],
+    "unique": [
+      "Doesn't generate naturally",
+      "Cannot be traded"
+    ],
+    "civilopediaText": [
+      { "text": "Kristal langka dari dunia para dewa. Tidak muncul secara alami; diperoleh dari Altar Para Dewa dan Pasar Surgawi." }
+    ]
+  }
+]
