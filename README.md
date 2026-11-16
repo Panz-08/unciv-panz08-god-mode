@@ -1,5 +1,8 @@
 # Panz-08 God Mode
 
+[![CI](https://github.com/Panz-08/unciv-panz08-god-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/Panz-08/unciv-panz08-god-mode/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ![Panz-08 God Mode](preview.png)
 
 Mod sandbox alias **mode tuhan** buat Unciv. Dibuat iseng tapi serius sama **panz-08**.
@@ -10,7 +13,7 @@ Semua isinya murni JSON ruleset Unciv. Nggak ada script aneh, nggak ada file gam
 
 | Info | Keterangan |
 |---|---|
-| Versi | **1.1.1** |
+| Versi | **1.1.2** |
 | Dibuat untuk | Unciv **4.22.14-patch1** (Build 1278) |
 | Tipe | Extension mod, aman digabung sama mod lain |
 | Penulis | **panz-08** |
@@ -234,9 +237,23 @@ Kalau kamu mau ubah ikonnya sendiri:
 - Nggak ada file game yang diubah. Hapus foldernya, mod-nya hilang total tanpa sisa.
 - Kalau digabung mod lain, pastikan nggak ada nama difficulty, speed, atau tech yang bentrok.
 
+### Validasi otomatis
+
+Repo ini punya skrip validasi yang jalan di GitHub Actions setiap push:
+
+```bash
+node scripts/validate.mjs
+```
+
+Skrip mengecek semua JSON bisa diparse, `game.atlas` menunjuk ke `game.png` yang valid, setiap region berada di dalam batas atlas, setiap region punya file sumber di `Images/`, dan setiap unit/bangunan/tech/resource/promotion/bangsa punya ikon di atlas. Ini menangkap masalah seperti ikon kosong sebelum dirilis.
+
 ---
 
 ## Changelog
+
+### 1.1.2
+- Tambah validasi otomatis (`scripts/validate.mjs`) dan workflow GitHub Actions.
+- README dapat badge CI dan bagian validasi.
 
 ### 1.1.1
 - **Perbaikan besar**: `game.atlas` + `game.png` sekarang ada di **root folder mod**, bukan di dalam `Images/`. Sebelumnya ikon bisa kosong total (cuma lingkaran warna) karena Unciv nggak menemukan atlasnya.
